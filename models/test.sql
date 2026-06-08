@@ -1,3 +1,3 @@
 select * from {{ ref('my_second_dbt_model') }}
 
-limit 1000
+limit 100
