@@ -1,1 +1,3 @@
-select 1
+{{ config(materialized='table') }}
+
+select 1 as test
