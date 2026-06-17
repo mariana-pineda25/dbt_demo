@@ -1,3 +1,3 @@
 {{ config(materialized='table') }}
 
-select 1 as test
+select 1000 as test
